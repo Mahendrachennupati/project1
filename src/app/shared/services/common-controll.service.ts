@@ -16,7 +16,7 @@ controll = new BehaviorSubject(false)
   }
   showalert(severity = 'success',code:string,msgstr:string) {
     this.messageService.clear();
-    this.messageService.add({ severity: severity, summary: code, detail: msgstr ,life:2000});
+    this.messageService.add({ severity: severity, detail: msgstr ,life:2000});
   }
   hidealert(){
     this.messageService.clear()

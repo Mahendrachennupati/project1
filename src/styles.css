@@ -28,3 +28,36 @@ body {
     z-index: 1000;
     /* Ensure it overlays other content */
 }
+
+.p-inputtext {
+    padding: 0.5rem 0.5rem;
+}
+
+
+.p-radiobutton-box.p-highlight .p-radiobutton-icon {
+    transform: translateZ(0) scale(0.5, 0.5);
+    visibility: visible;
+}
+
+
+.p-radiobutton .p-radiobutton-box {
+    border: 2px solid #ced4da;
+    width: 14px;
+    height: 14px;
+}
+
+.myp-radiobutton {
+    display: inline-flex;
+    vertical-align: unset;
+    align-items: unset;
+}
+
+.p-toast .p-toast-message .p-toast-message-content .p-toast-detail {
+    margin: 0.2rem 0 0 0;
+}
+
+.p-component {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 0.9rem;
+    font-weight: normal;
+}
