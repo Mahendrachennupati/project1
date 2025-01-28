@@ -9,6 +9,7 @@ import { CommonControllService } from 'src/app/shared/services/common-controll.s
 export class ContactComponent {
 constructor(private _controller:CommonControllService){
     this._controller.show();
+    this._controller.showalert('success','200','message configuration done')
   }
   
   ngAfterViewInit(){
