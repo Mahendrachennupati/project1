@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './layouts/headers/navbar/navbar.component';
 import { SpinnerComponent } from './layouts/common/spinner/spinner.component';
-import { AlertsComponent } from './layouts/common/alerts/alerts.component';
 import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { ServicesComponent } from './components/services/services.component';
@@ -18,7 +17,6 @@ import { MessageService } from 'primeng/api';
     AppComponent,
     NavbarComponent,
     SpinnerComponent,
-    AlertsComponent,
     HomeComponent,
     AboutComponent,
     ServicesComponent,
