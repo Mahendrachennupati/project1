@@ -52,8 +52,35 @@ body {
     align-items: unset;
 }
 
+.p-toast {
+    position: fixed;
+    width: 20rem !important;
+}
+
+.p-toast-top-center {
+    top: 70px !important;
+    left: 50%;
+    transform: translate(-50%);
+}
+
 .p-toast .p-toast-message .p-toast-message-content .p-toast-detail {
     margin: 0.2rem 0 0 0;
+}
+
+.p-toast .p-toast-message .p-toast-message-content .p-toast-message-icon {
+    font-size: 1rem;
+}
+
+.pi {
+    font-family: 'primeicons';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 2;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .p-component {
@@ -61,3 +88,18 @@ body {
     font-size: 0.9rem;
     font-weight: normal;
 }
+
+/* if you uncomment this then blur effect will not be applied to the nav bar 
+#nav {
+    position: fixed;
+    width: 100%;
+    z-index: 1200;
+    top: 0px;
+}
+
+.content {
+    position: fixed;
+    width: 100%;
+    top: 40px;
+} 
+ */

@@ -1,5 +1,8 @@
 <app-navbar></app-navbar>
-<router-outlet></router-outlet>
-<p-toast [showTransformOptions]="'translateY(100%)'" [showTransitionOptions]="'1000ms'"
-    [hideTransitionOptions]="'1000ms'" position="top-center" />
+<div class="content">
+    <router-outlet></router-outlet>
+</div>
+
+<p-toast [showTransformOptions]="'translateY(50%)'" [showTransitionOptions]="'500ms'" [hideTransitionOptions]="'700ms'"
+    position="top-center" />
 <app-spinner></app-spinner>
