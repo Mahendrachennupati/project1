@@ -1,23 +1,27 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ProgressSpinnerModule } from 'primeng/progressspinner';
-import { ToastModule } from 'primeng/toast';
-import { ButtonModule } from 'primeng/button';
-import { RippleModule } from 'primeng/ripple';
+import { PrimemodulesModule } from './primemodules/primemodules.module';
+import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule,FormsModule } from '@angular/forms';
+import { PasswordValidatorDirective ,TrimSpaceDirective} from '../Directives/';
 @NgModule({
-  declarations: [],
+  declarations: [
+    TrimSpaceDirective,
+    PasswordValidatorDirective
+  ],
   imports: [
     CommonModule,
-    ProgressSpinnerModule,
-    ToastModule,
-    ButtonModule,
-    RippleModule
+    ReactiveFormsModule,
+    FormsModule,
+    HttpClientModule,
+    PrimemodulesModule,
+    
   ],
   exports:[
-    ProgressSpinnerModule,
-    ToastModule,
-    ButtonModule,
-    RippleModule
+    ReactiveFormsModule,
+    FormsModule,
+    HttpClientModule,
+    PrimemodulesModule
   ]
 })
 export class SimilarModule { }
